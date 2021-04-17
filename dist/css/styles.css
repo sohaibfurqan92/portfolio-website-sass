@@ -147,18 +147,12 @@ h6 {
   margin: 10px 0;
 }
 
-.hero {
-  border: 1px solid black;
-  height: 100vh;
-  background: url("../img/showcase.jpg") no-repeat center center/cover;
-}
-
-.hero .logo img {
+.logo img {
   width: 70px;
   height: 70px;
 }
 
-.hero .navbar {
+.navbar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -171,23 +165,29 @@ h6 {
   padding: 10px;
 }
 
-.hero .navbar .nav-menu {
+.navbar .nav-menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.hero .navbar .nav-menu li {
+.navbar .nav-menu li {
   margin: 0 20px;
 }
 
-.hero .navbar .nav-menu li a {
+.navbar .nav-menu li a {
   text-transform: uppercase;
   padding-bottom: 5px;
 }
 
-.hero .navbar .nav-menu li a:hover {
+.navbar .nav-menu li a:hover {
   border-bottom: 2px solid #f4f4f4;
+}
+
+.hero {
+  border: 1px solid black;
+  height: 100vh;
+  background: url("../img/showcase.jpg") no-repeat center center/cover;
 }
 
 .hero .content {
@@ -327,4 +327,9 @@ footer .footer-content .social i.fab {
 footer .footer-content .social i.fab:hover {
   background: #ffbc00;
   color: #fff;
+}
+
+.hero-inner {
+  height: 5.5rem;
+  background: url("../img/showcase.jpg") no-repeat 20% 30%/cover;
 }
