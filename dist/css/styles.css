@@ -412,3 +412,36 @@ footer .footer-content .social i.fab:hover {
       grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
 }
+
+#about-d .testimonials {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  text-align: left;
+  gap: 1rem;
+}
+
+#about-d .testimonials .testimonial .testimonial-content {
+  border: 1px solid #ccc;
+  line-height: 1.5rem;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#about-d .testimonials .testimonial .testimonial-by {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#about-d .testimonials .testimonial .testimonial-by img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
