@@ -1,0 +1,104 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-link.active {
+  border-bottom: 2px solid $primaryColor;
+}
+
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+%btn-shared {
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.8rem 2rem;
+
+  &:hover {
+    background: $primaryColor;
+  }
+}
+
+.btn-light {
+  @extend %btn-shared;
+  background: $lightGrey;
+  color: $secondaryColor;
+}
+
+.hr {
+  width: 3rem;
+  height: 2px;
+  background: $primaryColor;
+  margin: 0 auto 1rem auto;
+}
+
+/* Padding */
+
+.py-1 {
+  padding: 1rem 0;
+}
+.py-2 {
+  padding: 2rem 0;
+}
+.py-3 {
+  padding: 3rem 0;
+}
+.px-1 {
+  padding: 0 1rem;
+}
+.px-2 {
+  padding: 0 2rem;
+}
+.px-3 {
+  padding: 0 3rem;
+}
+.p-1 {
+  padding: 1rem;
+}
+.p-2 {
+  padding: 2rem;
+}
+.p-3 {
+  padding: 3rem;
+}
+
+/* Margin */
+.my-1 {
+  margin: 1rem 0;
+}
+.my-2 {
+  margin: 2rem 0;
+}
+.my-3 {
+  margin: 3rem 0;
+}
+.mx-1 {
+  margin: 0 1rem;
+}
+.mx-2 {
+  margin: 0 2rem;
+}
+.mx-3 {
+  margin: 0 3rem;
+}
+.m-1 {
+  margin: 1rem;
+}
+.m-2 {
+  margin: 2rem;
+}
+.m-3 {
+  margin: 3rem;
+}
+
+.section-content {
+  text-align: center;
+}
+
+.bg-dark {
+  background: $secondaryColor;
+  color: #fff;
+}

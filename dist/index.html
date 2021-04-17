@@ -5,9 +5,198 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <div class="hero">
+      <div class="container">
+        <nav class="navbar">
+          <div class="logo">
+            <img src="./img/logo.png" alt="" />
+          </div>
+          <ul class="nav-menu">
+            <li>
+              <a href="index.html" class="nav-link active">Home</a>
+            </li>
+            <li>
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li>
+              <a href="work.html" class="nav-link">Work</a>
+            </li>
+            <li>
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="content">
+          <h1>
+            I am John The
+            <span
+              class="txt-type"
+              data-words='["Developer","Designer","Photographer"]'
+              data-wait="3000"
+            ></span>
+          </h1>
+          <p class="lead">
+            I specialize in graphic design, UI/UX and photography
+          </p>
+          <a href="about.html" class="btn-light">View My Work</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- home-b : specialize -->
+    <section id="home-b" class="py-2">
+      <div class="container">
+        <div class="section-content">
+          <h2>I specialize in</h2>
+          <div class="hr"></div>
+          <p class="lead">
+            Photography as well as creating digital masterpieces and UI/UX
+            layouts for websites and mobile applications
+          </p>
+          <div class="skills">
+            <div>
+              <i class="fas fa-file-alt fa-2x"></i>
+              <h3>Concepting</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officiis, molestias repellat quibusdam adipisci quas sed ullam
+                accusantium aliquam numquam quidem.
+              </p>
+            </div>
+            <div>
+              <i class="fas fa-desktop fa-2x"></i>
+              <h3>UI/UX</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officiis, molestias repellat quibusdam adipisci quas sed ullam
+                accusantium aliquam numquam quidem.
+              </p>
+            </div>
+            <div>
+              <i class="fas fa-object-ungroup fa-2x"></i>
+              <h3>Visual Design</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officiis, molestias repellat quibusdam adipisci quas sed ullam
+                accusantium aliquam numquam quidem.
+              </p>
+            </div>
+            <div>
+              <i class="fas fa-thumbs-up fa-2x"></i>
+              <h3>Interaction</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officiis, molestias repellat quibusdam adipisci quas sed ullam
+                accusantium aliquam numquam quidem.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Home C -stats -->
+    <section id="home-c" class="py-2">
+      <div class="stats">
+        <div>
+          <i class="fas fa-users fa-3x"></i>
+          <h3 class="stats-title">Clients</h3>
+          <p class="stats-number">100</p>
+        </div>
+        <div>
+          <i class="fas fa-award fa-3x"></i>
+          <h3 class="stats-title">Awards</h3>
+          <p class="stats-number">3</p>
+        </div>
+        <div>
+          <i class="fas fa-hourglass-start fa-3x"></i>
+          <h3 class="stats-title">Hours Worked</h3>
+          <p class="stats-number">3500</p>
+        </div>
+        <div>
+          <i class="fas fa-code-branch fa-3x"></i>
+          <h3 class="stats-title">Projects Completed</h3>
+          <p class="stats-number">135</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Home-D: process -->
+    <section id="home-d" class="py-2">
+      <div class="container">
+        <div class="section-content">
+          <h2>My Creative Process</h2>
+          <div class="hr"></div>
+          <p class="lead">
+            All of my UI/UX and design projects are based off of a practiced
+            formula to get the result that I am looking for
+          </p>
+          <div class="process">
+            <div>
+              <i class="fas fa-file-alt fa-4x process-icon my-2">
+                <div class="process-step">1</div>
+              </i>
+              <h3>Discuss the Project</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                voluptas laborum repellendus dolorum! Harum, cupiditate
+              </p>
+            </div>
+            <div>
+              <i class="fas fa-desktop fa-4x process-icon my-2">
+                <div class="process-step">2</div>
+              </i>
+              <h3>Brainstorming Concept</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                voluptas laborum repellendus dolorum! Harum, cupiditate
+              </p>
+            </div>
+            <div>
+              <i class="fas fa-object-ungroup fa-4x process-icon my-2">
+                <div class="process-step">3</div>
+              </i>
+              <h3>UI/UX Planning</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                voluptas laborum repellendus dolorum! Harum, cupiditate
+              </p>
+            </div>
+            <div>
+              <i class="fas fa-thumbs-up fa-4x process-icon my-2">
+                <div class="process-step">4</div>
+              </i>
+              <h3>Interaction</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                voluptas laborum repellendus dolorum! Harum, cupiditate
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="py-2 bg-dark">
+      <div class="container">
+        <div class="footer-content">
+          <p>Copyright &copy; 2019 - All Rights Reserved</p>
+          <div class="social">
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="./js/typewriter.js"></script>
   </body>
 </html>
