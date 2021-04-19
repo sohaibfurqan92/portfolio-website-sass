@@ -208,7 +208,6 @@ h6 {
 }
 
 .hero {
-  border: 1px solid black;
   height: 100vh;
   background: url("../img/showcase.jpg") no-repeat center center/cover;
 }
@@ -504,4 +503,89 @@ footer .footer-content .social i.fab:hover {
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
+}
+
+#work-a .section-content .items .item .item-text {
+  margin-top: 0;
+  background: #ffbc00;
+  color: #fff;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .hero {
+    height: 10rem;
+    background: url("../img/showcase.jpg") no-repeat 20% 30%/cover;
+    border-bottom: 2px solid #ffbc00;
+  }
+  .hero .content,
+  .hero h1 {
+    display: none;
+  }
+  #home-b .section-content .skills {
+    -ms-grid-columns: none;
+        grid-template-columns: none;
+    padding: 1rem;
+    line-height: 2;
+    margin-top: 1.5rem;
+  }
+  #home-b .section-content .skills div {
+    border-bottom: 1px solid #f4f4f4;
+    margin-bottom: 1.5rem;
+  }
+  #home-c .stats {
+    -ms-grid-columns: none;
+        grid-template-columns: none;
+  }
+  #home-d .process {
+    -ms-grid-columns: none;
+        grid-template-columns: none;
+  }
+  .hero-inner {
+    height: 10rem;
+  }
+  #about-a .about-info {
+    padding: 1rem;
+        grid-template-areas: 'bioimage' 'bio' 'award-1' 'award-2' 'award-3';
+  }
+  #about-b {
+    padding: 1rem;
+  }
+  #about-c {
+    display: none;
+  }
+  #about-d .testimonials {
+    -ms-grid-columns: none;
+        grid-template-columns: none;
+    padding: 1rem;
+  }
+  #about-d .testimonials .testimonial .testimonial-content {
+    padding: 0.5rem;
+  }
+  #work-a .section-content .items {
+    -ms-grid-columns: none;
+        grid-template-columns: none;
+    margin: 1rem;
+  }
+  #contact-a form .text-fields {
+    padding: 1rem;
+  }
+  #contact-b .section-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #contact-b .section-content div {
+    margin-bottom: 1rem;
+  }
+  #contact-c h1 {
+    font-size: 2rem;
+  }
 }

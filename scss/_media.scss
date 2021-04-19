@@ -1,0 +1,111 @@
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .hero {
+    height: 10rem;
+    background: url('../img/showcase.jpg') no-repeat 20% 30% / cover;
+    border-bottom: 2px solid $primaryColor;
+
+    .content,
+    h1 {
+      display: none;
+    }
+  }
+
+  #home-b {
+    .section-content {
+      .skills {
+        grid-template-columns: none;
+        padding: 1rem;
+        line-height: 2;
+        margin-top: 1.5rem;
+        div {
+          border-bottom: 1px solid #f4f4f4;
+          margin-bottom: 1.5rem;
+        }
+      }
+    }
+  }
+
+  #home-c {
+    .stats {
+      grid-template-columns: none;
+    }
+  }
+
+  #home-d {
+    .process {
+      grid-template-columns: none;
+    }
+  }
+
+  // About page styles
+
+  .hero-inner {
+    height: 10rem;
+  }
+  #about-a {
+    .about-info {
+      padding: 1rem;
+      grid-template-areas:
+        'bioimage'
+        'bio'
+        'award-1'
+        'award-2'
+        'award-3';
+    }
+  }
+
+  #about-b {
+    padding: 1rem;
+  }
+
+  #about-c {
+    display: none;
+  }
+
+  #about-d {
+    .testimonials {
+      grid-template-columns: none;
+      padding: 1rem;
+
+      .testimonial {
+        .testimonial-content {
+          padding: 0.5rem;
+        }
+      }
+    }
+  }
+
+  // work page
+  #work-a {
+    .section-content {
+      .items {
+        grid-template-columns: none;
+        margin: 1rem;
+      }
+    }
+  }
+
+  // Contact page
+  #contact-a {
+    form .text-fields {
+      padding: 1rem;
+    }
+  }
+
+  #contact-b {
+    .section-content {
+      flex-direction: column;
+
+      div {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  #contact-c h1 {
+    font-size: 2rem;
+  }
+}
