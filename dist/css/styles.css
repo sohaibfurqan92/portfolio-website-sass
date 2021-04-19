@@ -497,3 +497,11 @@ footer .footer-content .social i.fab:hover {
   text-transform: capitalize;
   font-weight: 500;
 }
+
+#work-a .section-content .items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}

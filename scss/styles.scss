@@ -327,3 +327,14 @@ footer {
   text-transform: capitalize;
   font-weight: 500;
 }
+
+// Work Page
+#work-a {
+  .section-content {
+    .items {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+    }
+  }
+}
