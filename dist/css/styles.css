@@ -13,19 +13,24 @@
   margin-bottom: 2rem;
 }
 
-.btn-light {
+.btn-light, .btn-dark {
   display: inline-block;
   cursor: pointer;
   padding: 0.8rem 2rem;
 }
 
-.btn-light:hover {
+.btn-light:hover, .btn-dark:hover {
   background: #ffbc00;
 }
 
 .btn-light {
   background: #f4f4f4;
   color: #333333;
+}
+
+.btn-dark {
+  background: #333333;
+  color: #fff;
 }
 
 .hr {
@@ -125,6 +130,11 @@
 .bg-light {
   background: #f4f4f4;
   color: #000;
+}
+
+.bg-primary {
+  background: #ffbc00;
+  color: #fff;
 }
 
 * {
@@ -444,4 +454,46 @@ footer .footer-content .social i.fab:hover {
   border-radius: 50%;
   display: inline-block;
   margin-right: 10px;
+}
+
+#contact-a form .text-fields {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+#contact-a form .text-fields input {
+  padding: 10px;
+}
+
+#contact-a form .text-fields textarea {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1 / span 2;
+  height: 100px;
+  padding: 10px;
+}
+
+#contact-a input[type='submit'] {
+  width: 50%;
+}
+
+#contact-b .section-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contact-c h1 {
+  font-size: 4rem;
+  text-transform: capitalize;
+  font-weight: 500;
 }

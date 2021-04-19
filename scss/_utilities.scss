@@ -28,6 +28,12 @@
   color: $secondaryColor;
 }
 
+.btn-dark {
+  @extend %btn-shared;
+  background: $secondaryColor;
+  color: #fff;
+}
+
 .hr {
   width: 3rem;
   height: 2px;
@@ -108,4 +114,8 @@
 .bg-light {
   background: $lightGrey;
   color: #000;
+}
+.bg-primary {
+  background: $primaryColor;
+  color: #fff;
 }

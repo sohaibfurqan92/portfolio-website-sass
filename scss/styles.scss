@@ -288,3 +288,42 @@ footer {
     }
   }
 }
+
+// Contact Page
+
+#contact-a {
+  form .text-fields {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-bottom: 3rem;
+
+    input {
+      padding: 10px;
+    }
+
+    textarea {
+      grid-column: 1 / span 2;
+      height: 100px;
+      padding: 10px;
+    }
+  }
+
+  input[type='submit'] {
+    width: 50%;
+  }
+}
+
+#contact-b {
+  .section-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+#contact-c h1 {
+  font-size: 4rem;
+  text-transform: capitalize;
+  font-weight: 500;
+}
